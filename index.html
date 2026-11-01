@@ -354,6 +354,852 @@ const data = {
   },
   // 歌词库：key 和 audio name 对应
   lyricLib: {
+    "S-Unit1": `[00:00.52]Vocabulary in Each Unit
+[00:03.52]Starter Unit 1
+[00:06.64]unit /ˈjuːnɪt/ n. 单元 
+[00:10.52]starter /ˈstɑːtə(r)/ unit 过渡单元 
+[00:15.64]section /ˈsekʃn/ n. 部分；地区 
+[00:19.68]greet /ɡriːt/ v. 招呼；问候 
+[00:23.68]each /iːtʃ/ adj. & pron.每个；各自 
+[00:27.28]everyone /ˈevriwʌn/ pron. 每人；所有人 
+[00:31.48]start /stɑːt/ v. 开始；着手 
+[00:35.68]conversation /ˌkɒnvəˈseɪʃn/ n. 谈话；交谈 
+[00:40.20]spell /spel/ v. 用字母拼；拼写 
+[00:44.40]bell /bel/ n. 铃（声）；钟（声） 
+[00:48.20]Helen /ˈhelən/ 海伦 
+[00:52.04]Ella /ˈelə/ 埃拉 
+[00:55.60]Emma /ˈemə/ 埃玛 
+[00:59.24]Peter /ˈpiːtə(r)/ 彼得 
+[01:03.04]Brown /braʊn/ 布朗 
+[01:06.96]PRC /ˌpiː ɑː(r) ˈsiː/ 中华人民共和国 
+[01:12.28]PLA /ˌpiː el ˈeɪ/ 中国人民解放军 
+[01:17.76]VR /ˌviː ˈɑː(r)/ 虚拟现实 
+[01:22.48]WHO /ˌdʌbljuː eɪtʃ ˈəʊ/ 世界卫生组织 
+[01:27.92]UN /ˌjuː ˈen/ 联合国 
+[01:32.20]Miller /ˈmɪlə(r)/ 米勒`,
+    "S-Unit2": `[00:01.32]Starter Unit 2
+[00:04.28]bottle /ˈbɒtl/ n. 瓶子 
+[00:07.84]eraser /ɪˈreɪzə(r)/ n. 橡皮 
+[00:11.84]key /kiː/ n. 钥匙；关键 
+[00:15.44]thing /θɪŋ/ n. 东西；事情 
+[00:19.72]You’re welcome. 别客气；不用谢。 `,
+    "S-Unit3": `[00:00.16]Starter Unit 3
+[00:03.28]fun /fʌn/ n. 乐趣；快乐 adj. 有趣的；使人快乐的 
+[00:07.04]yard /jɑːd/ n. 院子；园圃 
+[00:10.76]carrot /ˈkærət/ n. 胡萝卜 
+[00:14.52]goose /ɡuːs/ n. 
+[00:18.24](pl. geese /ɡiːs/) 鹅 
+[00:22.08]count /kaʊnt/ v. 数数 
+[00:25.76]another /əˈnʌðə(r)/ adj. & pron. 另一；又一（人或事物） 
+[00:29.56]else /els/ adv. 其他的；别的 
+[00:33.36]circle /ˈsɜːkl/v. 圈出 n. 圆形；圆圈 
+[00:37.44]look at 看；瞧 `,
+     "7sUnit1": `[00:01.72]Unit 1
+[00:04.28]make friends 交朋友 
+[00:08.88]get to know 认识；了解 
+[00:13.40]each /iːtʃ/ adj. & pron.每个；各自 
+[00:17.16]other /ˈʌðə(r)/ pron. 另外的人（或物） adj. 另外的；其他的
+[00:20.72]each other 互相；彼此 
+[00:25.08]full /fʊl/ adj. 完整的；满的 
+[00:28.44]full name 全名 
+[00:32.56]grade /ɡreɪd/ n. 年级；等级 
+[00:36.28]last name 姓氏 
+[00:40.56]classmate /ˈklɑːsmeɪt/ n. 同班同学 
+[00:45.04]class teacher 班主任 
+[00:49.92]first name 名字 
+[00:54.44]mistake /mɪˈsteɪk/ n. 错误；失误 
+[00:58.56]country /ˈkʌntri/ n. 国家 
+[01:02.44]same /seɪm/ adj. 相同的 
+[01:06.28]twin /twɪn/ n. 双胞胎之一 adj. 双胞胎之一的 
+[01:10.32]pot /pɒt/ n. 锅 
+[01:14.20]tofu /ˈtəʊfuː/ n. 豆腐 
+[01:18.28]need /niːd/ v. & n. 需要
+[01:22.32]parrot /ˈpærət/ n. 鹦鹉 
+[01:26.16]guitar /ɡɪˈtɑː(r)/ n. 吉他 
+[01:30.00]tennis /ˈtenɪs/ n. 网球运动 
+[01:34.28]play the guitar 弹吉他 
+[01:39.04]would /wʊd/; 
+[01:42.24]/wəd/ modalv. 想（用于礼貌地邀请或向某人提供某物）；将会 
+[01:45.60]would (’d) like to 表示愿意、喜欢 
+[01:49.88]information /ˌɪnfəˈmeɪʃn/ n. 信息；消息 
+[01:54.32]hobby /ˈhɒbi/ n. 业余爱好 
+[01:57.92]re /riː/ prep.（用于回复电子邮件）关于；事由 
+[02:01.44]Green /ɡriːn/ 格林 
+[02:04.92]UK /ˌjuː ˈkeɪ/ 英国 
+[02:09.08]US /ˌjuː ˈes/ 美国 
+[02:13.28]Smith /smɪθ/ 史密斯 
+[02:17.08]Lisa /ˈliːsə/ 莉萨 
+[02:20.84]Tom /tɒm/ 汤姆 
+[02:24.40]hot pot 火锅 
+[02:28.40]Sally /ˈsæli/ 萨莉 
+[02:32.24]Wood /wʊd/ 伍德 
+[02:35.88]Sydney /ˈsɪdni/ 悉尼（澳大利亚城市）
+[02:39.84]Australia /ɒˈstreɪliə/ 澳大利亚 
+[02:44.00]Mapo tofu 麻婆豆腐 
+[02:49.08]Beijing roast /rəʊst/ duck 北京烤鸭 
+[02:54.56]Singapore /ˌsɪŋəˈpɔː(r)/ 新加坡 
+[02:58.92]the Great Wall 长城 
+[03:03.64]Pauline /pɔːˈliːn/ 保利娜 
+[03:07.76]Lee /liː/ 李 
+[03:11.44]Coco /ˈkəʊkəʊ/ 科科 
+[03:15.36]London /ˈlʌndən/ 伦敦（英国首都）`,
+    "7sUnit2": `[00:01.68]Unit 2
+[00:04.20]mean /miːn/v. 意思是；打算 
+[00:07.96]husband /ˈhʌzbənd/ n. 丈夫 
+[00:12.04]bat /bæt/ n. 球棒；球拍 
+[00:15.60]ping-pong bat 乒乓球拍 
+[00:20.20]play ping-pong 打乒乓球 
+[00:24.76]together /təˈɡeðə(r)/ adv. 在一起；共同 
+[00:28.56]every day 每天 
+[00:33.68]spend /spend/v. 花（时间、钱等） 
+[00:37.52]a lot of / lots of 大量；许多  
+[00:45.68]hey /heɪ/ interj. 嘿；喂
+[00:49.76]really /ˈriːəli/ adv. 非常；确实；真正地 
+[00:53.48]member /ˈmembə(r)/ n. 成员；会员 
+[00:57.32]activity /ækˈtɪvəti/ n. 活动 
+[01:01.52]chess /tʃes/ n. 国际象棋 
+[01:05.28]Chinese chess 中国象棋 
+[01:10.40]a lot 很；非常
+[01:14.12]grandparent /ˈɡrænpeərənt/ n. 祖父（母）；外祖父（母） 
+[01:18.60]funny /ˈfʌni/ adj. 好笑的；奇怪的 
+[01:22.28]laugh /lɑːf/v. 笑；发笑 n. 笑声 
+[01:26.12]different /ˈdɪfrənt/ adj. 不同的 
+[01:30.92]have fun 玩得高兴 
+[01:34.88]hat /hæt/ n. 帽子 
+[01:38.44]handsome /ˈhænsəm/ adj. 英俊的 
+[01:42.24]knee /niː/ n. 膝；膝盖 
+[01:45.72]at night 在夜晚 
+[01:50.72]grandchild /ˈɡræntʃaɪld/ n. 
+[01:54.52](pl. grandchildren /ˈɡrænˌtʃɪldrən/)（外）孙子；（外）孙女 
+[01:58.92]son /sʌn/ n. 儿子 
+[02:02.92]listen to 听；倾听
+[02:07.04]next to 紧邻；在……近旁 
+[02:11.08]David /ˈdeɪvɪd/ 戴维 
+[02:14.76]Jim /dʒɪm/ 吉姆 
+[02:18.28]Kate /keɪt/ 凯特 
+[02:21.92]Lily /ˈlɪli/ 莉莉 
+[02:25.52]Ireland /ˈaɪələnd/ 爱尔兰 
+[02:29.48]Fred /fred/ 弗雷德 
+[02:33.08]Sam /sæm/ 萨姆 
+[02:36.96]Jane /dʒeɪn/ 简 
+[02:40.68]Jack /dʒæk/ 杰克 
+[02:44.28]Sarah /ˈseərə/ 萨拉 
+[02:48.16]Oscar /ˈɒskə(r)/ 奥斯卡 
+[02:51.88]Lucy /ˈluːsi/ 露西 `,
+    "7sUnit3": `[00:00.80]Unit 3
+[00:03.44]hall /hɔːl/ n. 礼堂；大厅 
+[00:07.16]dining /ˈdaɪnɪŋ/ hall 餐厅 
+[00:11.52]in front of 在……前面 
+[00:15.84]building /ˈbɪldɪŋ/ n. 建筑物；房子 
+[00:19.72]in the middle of 在……中间
+[00:23.88]across /əˈkrɒs/ adv. & prep. 在（……）对面；横过 
+[00:27.72]across from 在对面 
+[00:32.36]centre /ˈsentə(r)/ (= center) n. 中心；中央 
+[00:35.76]gym /dʒɪm/ n. 
+[00:39.00](= gymnasium /dʒɪmˈneɪziəm/) 体育馆，健身房；（尤指学校的）体育活动 
+[00:43.36]field /fiːld/ n. 场地；田地 
+[00:47.36]sports field 运动场 
+[00:51.84]office /ˈɒfɪs/ n. 办公室 
+[00:55.64]large /lɑːdʒ/ adj. 大的；大号的 
+[00:59.60]special /ˈspeʃl/ adj. 特别的；特殊的 
+[01:03.64]smart /smɑːt/ adj. 智能的；聪明的 
+[01:07.68]whiteboard /ˈwaɪtbɔːd/ n. 白板；白色书写板 
+[01:11.92]put up 张贴；搭建 
+[01:15.76]important /ɪmˈpɔːtnt/ adj. 重要的 
+[01:20.00]notice /ˈnəʊtɪs/ n. 通知；注意 v. 注意到；意识到 
+[01:24.16]locker /ˈlɒkə(r)/ n.有锁存物柜；寄物柜 
+[01:27.92]drawer /drɔː(r)/ n. 抽屉 
+[01:31.72]at the back (of) 在（……）后面  
+[01:40.04]corner /ˈkɔːnə(r)/ n. 角；墙角；街角 
+[01:43.68]bookcase /ˈbʊkkeɪs/ n. 书架；书柜 
+[01:47.84]screen /skriːn/ n. 屏幕；银幕 
+[01:52.00]at school 在学校 
+[01:56.20]different from 与……不一样 
+[02:00.52]modern /ˈmɒdn/ adj. 现代的；当代的 
+[02:04.28]do exercises 做体操 
+[02:09.40]amazing /əˈmeɪzɪŋ/ adj. 令人惊奇（惊喜或惊叹）的 
+[02:13.60]raise /reɪz/v. 使升高；提高 
+[02:17.68]flag /flæɡ/ n. 旗；旗帜 
+[02:21.48]most /məʊst/ adj. & pron. 大多数；最多；最大 adv. 最 
+[02:25.28]change /tʃeɪndʒ/v. & n. 改变；变化 
+[02:29.40]seat /siːt/ n. 座位 
+[02:33.24]delicious /dɪˈlɪʃəs/ adj. 美味的；可口的 
+[02:37.36]How about ...? ……怎么样？ 
+[02:41.56]yours /jɔːz/ pron.（通常写作Yours，用于书信结尾的签名前）你的；您的 
+[02:45.40]send /send/v. 发送；邮寄 
+[02:49.36]similar /ˈsɪmələ(r)/ adj. 类似的；相像的 
+[02:52.84]similar to 类似的；相像的 
+[02:57.40]sound /saʊnd/v. 听起来；好像 n. 声音；响声 
+[03:01.48]bye for now 再见 
+[03:06.00]Flora /ˈflɔːrə/ 弗洛拉 `,
+    "7sUnit4": `[00:00.80]Unit 4
+[00:03.36]biology /baɪˈɒlədʒi/ n. 生物学 
+[00:07.44]IT /ˌaɪ ˈtiː/ 
+[00:10.96](= information technology /tekˈnɒlədʒi/) 信息技术 
+[00:16.60]geography /dʒiˈɒɡrəfi/ n. 地理（学） 
+[00:20.72]history /ˈhɪstri/ n. 历史；历史课 
+[00:24.56]boring /ˈbɔːrɪŋ/ adj. 乏味的；令人生厌的 
+[00:28.32]useful /ˈjuːsfl/ adj. 有用的；有益的 
+[00:32.08]exciting /ɪkˈsaɪtɪŋ/ adj. 令人激动的； 使人兴奋的 
+[00:36.28]past /pɑːst/ n. 过去；过去的事情 adj.过去的 prep.在……之后 
+[00:40.24]good with 灵巧的；善于应付……的 
+[00:44.12]number /ˈnʌmbə(r)/ n. 数字；号码 
+[00:47.96]help sb with 帮助某人做（某事） 
+[00:52.92]reason /ˈriːzn/ n. 原因；理由 
+[00:57.40]good at 擅长 
+[01:01.32]remember /rɪˈmembə(r)/ v. 记住；记起 
+[01:05.24]as /æz/; 
+[01:08.40]/əz / prep. 如同；作为 conj. 当……时；由于 
+[01:12.00]AM /ˌeɪ ˈem/ (= a.m.) 上午 
+[01:16.24]PM /ˌpiː ˈem/ (= p.m.) 下午；午后 
+[01:20.56]French /frentʃ/ n. 法语 adj. 法国的；法国人的；法语的 
+[01:24.40]excellent /ˈeksələnt/ adj. 优秀的；极好的 
+[01:28.40]instrument /ˈɪnstrəmənt/ n. 乐器；器械；工具 
+[01:32.48]singer /ˈsɪŋə(r)/ n. 歌手 
+[01:36.36]future /ˈfjuːtʃə(r)/ n. 将来；未来 
+[01:40.40]in the future 将来；未来 
+[01:44.84]term /tɜːm/ n. 学期 
+[01:48.60]work out 计算出；解决 
+[01:52.76]problem /ˈprɒbləm/ n. 难题；困难 
+[01:56.48]in class 课堂上 
+[02:00.84]magic /ˈmædʒɪk/ n. 魔法；魔力；魔术 adj. 有魔力的；有神奇力量的 
+[02:04.84]life /laɪf/ n. 生活；生命 
+[02:08.60]scientist /ˈsaɪəntɪst/ n. 科学家 
+[02:13.36]both /bəʊθ/ pron. & adj. 两个；两个都 
+[02:16.88]Baker /ˈbeɪkə(r)/ 贝克 
+[02:20.52]Mike /maɪk/ 迈克 
+[02:24.32]Davis /ˈdeɪvɪs/ 戴维斯 
+[02:28.28]Canada /ˈkænədə/ 加拿大 `,
+    "7sUnit5": `[00:00.64]Unit 5
+[00:03.36]club /klʌb/ n. 俱乐部；社团 
+[00:06.88]join /dʒɔɪn/v. 参加；加入 
+[00:10.56]choose /tʃuːz/v. 选择；挑选 
+[00:14.52]drama /ˈdrɑːmə/ n. 戏剧；戏剧表演 
+[00:18.20]play Chinese chess 下中国象棋 
+[00:23.72]feeling /ˈfiːlɪŋ/ n. 感觉；情感 
+[00:27.64]news /njuːz/ n. 消息；新闻 
+[00:31.52]musical /ˈmjuːzɪkl/ adj. 音乐的；有音乐天赋的 
+[00:35.56]musical instrument 乐器 
+[00:40.44]exactly /ɪɡˈzæktli/ adv. 正是如此；准确地 
+[00:45.08]violin /ˌvaɪəˈlɪn/ n. 小提琴
+[00:49.08]drum /drʌm/ n. 鼓 
+[00:52.64]ability /əˈbɪləti/ n. 能力；才能 
+[00:56.60]paint /peɪnt/v. 用颜料画；在……上刷油漆 n. 油漆；涂料 
+[01:00.28]climb /klaɪm/v. 攀登；爬 
+[01:04.72]even /ˈiːvn/ adv. 甚至；连；愈加
+[01:08.68]more /mɔː(r)/ adj. & pron. 更多（的） 
+[01:12.24]act /ækt/ v. 扮演；行动 n.（戏剧等）一幕；行动 
+[01:15.96]act out 表演 
+[01:20.00]at home 在家里 
+[01:24.12]interested /ˈɪntrəstɪd/ adj. 感兴趣的 
+[01:28.28]interested in 对……感兴趣 
+[01:32.76]nature /ˈneɪtʃə(r)/ n. 自然界；大自然 
+[01:36.80]hike /haɪk/v. & n. 远足；徒步旅行
+[01:40.72]beef /biːf/ n. 牛肉 
+[01:44.32]soon /suːn/ adv. 不久；很快 
+[01:48.24]than /ðæn/; 
+[01:51.56]/ðən/ prep. & conj.（用以引出比较的第二部分）比 
+[01:55.24]more than 多于 
+[01:59.16]mind /maɪnd/ n. 头脑；心思 
+[02:03.08]fall /fɔːl/ v. & n. 进入；掉落；跌倒 n.（美式）秋天 
+[02:07.08]fall in love with 爱上…… 
+[02:12.08]take photos 拍照 
+[02:16.32]collect /kəˈlekt/v. 收集；采集 
+[02:20.28]insect /ˈɪnsekt/ n. 昆虫 
+[02:24.40]discover /dɪˈskʌvə(r)/ v. 发现；发觉 
+[02:28.48]wildlife /ˈwaɪldlaɪf/ n. 野生动物；野生生物 
+[02:32.80]Linda /ˈlɪndə/ 琳达 
+[02:36.44]Alice /ˈælɪs/ 爱丽丝 
+[02:40.32]Bill /bɪl/ 比尔 
+[02:43.76]Jenny /ˈdʒeni/ 珍妮 `,
+    "7sUnit6": `[00:00.16]Unit 6
+[00:02.80]make use of 使用……；利用…… 
+[00:07.36]quarter /ˈkwɔːtə(r)/ n. 一刻钟；四等份之一 
+[00:11.08]shower /ˈʃaʊə(r)/ n. 淋浴；淋浴器；阵雨 v. 洗淋浴 
+[00:14.92]take a shower 淋浴 
+[00:19.12]get dressed 穿衣服 
+[00:23.36]brush /brʌʃ/v.（用刷子）刷 n. 刷子；画笔 
+[00:27.12]tooth /tuːθ/ n. 
+[00:30.20](pl. teeth /tiːθ/) 牙齿 
+[00:33.72]duty /ˈdjuːti/ n. 值班；职责 
+[00:37.00]on duty 值班 
+[00:41.28]usually /ˈjuːʒuəli/ adv. 通常地；一般地 
+[00:45.24]get up 起床；站起 
+[00:49.44]reporter /rɪˈpɔːtə(r)/ n. 记者 
+[00:53.32]around /əˈraʊnd/ adv. & prep. 大约；环绕；到处 
+[00:57.56]homework /ˈhəʊmwɜːk/ n. 家庭作业 
+[01:01.36]go to bed 上床睡觉 
+[01:05.44]saying /ˈseɪɪŋ/ n. 谚语；格言 
+[01:09.44]rise /raɪz/v. 起床；升起；增长 n. 增加；增强 
+[01:13.60]stay /steɪ/v. 停留；待 
+[01:17.48]routine /ruːˈtiːn/ n. 常规 
+[01:21.44]restaurant /ˈrestrɒnt/ n. 餐馆；餐厅 
+[01:25.52]housework /ˈhaʊswɜːk/ n. 家务劳动 
+[01:29.84]while /waɪl/ n. 一段时间；一会儿 conj. 在……期间；当……的时候 
+[01:33.60]weekend /ˌwiːkˈend/ n. 周末 
+[01:38.00]at weekends 在周末 
+[01:43.16]daily /ˈdeɪli/ adj. 每日的；日常的 
+[01:46.80]daily routine 日常生活 
+[01:51.48]only /ˈəʊnli/ adv. 只；仅 
+[01:55.24]break /breɪk/ n. 休息；间断 v.（使）破碎；损坏 
+[01:58.76]Finnish /ˈfɪnɪʃ/ n. 芬兰语 adj. 芬兰的；芬兰人的；芬兰语的 
+[02:02.24]finish /ˈfɪnɪʃ/v. 结束；完成 
+[02:06.28]hockey /ˈhɒki/ n. 曲棍球 
+[02:09.92]ice hockey 冰球运动；冰上曲棍球 
+[02:13.96]already /ɔːlˈredi/ adv. 已经；早已 
+[02:17.84]dark /dɑːk/ adj. 昏暗的；深色的 
+[02:21.52]outside /ˌaʊtˈsaɪd/ adv. & prep. 在（……）外面 adj. 外面的 
+[02:25.76]part /pɑːt/ n. 部分 
+[02:29.48]everyday /ˈevrideɪ/ adj. 每天的；日常的 
+[02:33.64]prepare /prɪˈpeə(r)/v. 把……预备好；准备 
+[02:37.60]prepare sth for 为……把某物准备好 
+[02:42.84]Timo /ˈtiːməʊ/ 蒂莫 
+[02:46.64]Halla /ˈhɑlɑ/ 哈拉 
+[02:50.48]Helsinki /helˈsɪŋki/ 赫尔辛基（芬兰首都） 
+[02:54.72]Finland /ˈfɪnlənd/ 芬兰 
+[02:58.76]home economics /ˌiːkəˈnɒmɪks/ 家政学；家庭经济学  `,
+    "7sUnit7": `[00:00.16]Unit 7
+[00:02.72]celebrate /ˈselɪbreɪt/ v. 庆祝；庆贺 
+[00:07.08]surprise /səˈpraɪz/ n. 惊奇；惊讶 v. 使感到意外 
+[00:10.80]something /ˈsʌmθɪŋ/ pron. 某事；某物 
+[00:14.76]sale /seɪl/ n. 出售；销售 
+[00:18.84]kilo /ˈkiːləʊ/ (= kilogram, 
+[00:22.32]kilogramme /ˈkɪləɡræm/) n. 
+[00:26.00](pl. kilos) 千克；公斤 
+[00:29.52]yogurt /ˈjɒɡət/ (= yoghurt) n. 酸奶 
+[00:33.40]total /ˈtəʊtl/ n. 总数；合计 adj. 总的；全体的 
+[00:36.92]price /praɪs/ n. 价格 
+[00:40.76]balloon /bəˈluːn/ n. 气球 
+[00:44.52]chocolate /ˈtʃɒklət/ n. 巧克力 
+[00:48.44]pizza /ˈpiːtsə/ n. 比萨饼 
+[00:52.44]list /lɪst/ n. 名单；清单 v. 列表；列清单 
+[00:56.00]own /əʊn/ adj. & pron. 自己的；本人的 
+[00:59.72]example /ɪɡˈzɑːmpl/ n. 例子；范例 
+[01:03.72]for example 例如 
+[01:08.44]language /ˈlæŋɡwɪdʒ/ n. 语言 
+[01:12.28]international /ˌɪntəˈnæʃnəl/ adj. 国际的 
+[01:16.84]mark /mɑːk/ v. 做记号；纪念；打分 n. 记号 
+[01:20.44]national /ˈnæʃnəl/ adj. 国家的；民族的 
+[01:24.32]found /faʊnd/ v. 创建；创立 
+[01:28.20]meaningful /ˈmiːnɪŋfl/ adj. 有意义的；重要的 
+[01:32.20]make a wish 许愿 
+[01:37.12]celebration /ˌselɪˈbreɪʃn/ n. 庆典；庆祝（活动） 
+[01:42.04]post /pəʊst/ n. 帖子；邮政 v. 邮寄；发布 
+[01:45.68]contact /ˈkɒntækt/ n. 联系；接触 v. 联系；联络 
+[01:49.68]symbol /ˈsɪmbl/ n. 象征；符号 
+[01:53.56]take a photo 拍照 
+[01:58.20]village /ˈvɪlɪdʒ/ n. 村庄；村镇 
+[02:02.28]grow /ɡrəʊ/v. 成长；长大；增长 
+[02:05.84]blow /bləʊ/v. 吹；刮 
+[02:09.44]blow out 吹灭 
+[02:13.44]enjoy /ɪnˈdʒɔɪ/ v. 享受……的乐趣；喜欢 
+[02:17.32]height /haɪt/ n. 身高；高度 
+[02:20.80]later /ˈleɪtə(r)/ adv. & adj. 以后（的）；后来（的） 
+[02:24.48]next time 下次 
+[02:28.60]whom /huːm/ pron. 谁；什么人 
+[02:32.28]William /ˈwɪljəm/ Shakespeare /ˈʃeɪkspɪə(r)/ 威廉 · 莎士比亚 
+[02:36.92]Florence /ˈflɒrəns/ Nightingale /ˈnaɪtɪŋɡeɪl/ 弗洛伦斯 · 南丁格尔 
+[02:42.16]National Day 国庆节 
+[02:46.80]CPC Founding Day 中国共产党建党纪念日  
+[02:53.44]PLA Day 中国人民解放军建军节 
+[02:58.60]Judy /ˈdʒuːdi/ 朱迪 
+[03:02.32]Clark /klɑːk/ 克拉克 `,
+    "7xUnit1": ` [00:00.16]Vocabulary in Each Unit
+[00:03.20]Unit 1 
+[00:05.84]fox /fɒks/ n. 狐狸 
+[00:09.80]giraffe /dʒəˈrɑːf/ n. 长颈鹿 
+[00:13.96]eagle /ˈiːɡl/ n. 雕；鹰 
+[00:17.60]wolf /wʊlf/ n. 
+[00:21.16](pl. wolves /wʊlvz/) 狼 
+[00:25.08]penguin /ˈpeŋɡwɪn/ n. 企鹅 
+[00:29.00]care /keə(r)/ n. 照顾；护理 v. 关心；在乎 
+[00:32.68]take care of 照顾；处理 
+[00:37.00]sandwich /ˈsænwɪtʃ/; 
+[00:40.68]/ˈsænwɪdʒ/ n. 三明治 
+[00:44.96]snake /sneɪk/ n. 蛇 
+[00:48.84]scary /ˈskeəri/ adj. 吓人的；恐怖的 
+[00:52.88]neck /nek/ n. 脖子 
+[00:56.56]guess /ɡes/v. 猜测；估计 
+[01:00.40]shark /ʃɑːk/ n. 鲨鱼 
+[01:04.40]whale /weɪl/ n. 鲸 
+[01:08.24]huge /hjuːdʒ/ adj. 巨大的；极多的 
+[01:12.16]dangerous /ˈdeɪndʒərəs/ adj. 危险的；有危害的 
+[01:16.32]save /seɪv/v. 救；储蓄；保存 
+[01:20.20]luck /lʌk/ n. 幸运；运气 
+[01:23.80]Thai /taɪ/ adj.泰国的；泰国人的 n. 泰国人；泰语 
+[01:27.52]trunk /trʌŋk/ n. 象鼻 
+[01:31.36]pick /pɪk/v. 捡；摘 
+[01:34.84]pick up 拿起；举起 ；接载 
+[01:38.64]carry /ˈkæri/v. 拿；提 
+[01:42.28]playful /ˈpleɪfl/ adj. 爱嬉戏的；爱玩的 
+[01:46.20]swimmer /ˈswɪmə(r)/ n. 游泳者 
+[01:49.96]one another 互相 
+[01:54.08]look after 照顾 
+[01:58.44]culture /ˈkʌltʃə(r)/ n. 文化；文明 
+[02:02.16]however /haʊˈevə(r)/ adv. 然而；不过 
+[02:06.28]danger /ˈdeɪndʒə(r)/ n. 危险 
+[02:09.96]in danger 处于危险之中 
+[02:14.28]forest /ˈfɒrɪst/ n. 森林 
+[02:18.24]cut down 砍伐；减少 
+[02:22.40]too many 太多 
+[02:26.40]kill /kɪl/v. 杀死；弄死 
+[02:30.00]ivory /ˈaɪvəri/ n. 象牙 
+[02:33.52]made of 由……制成的 
+[02:37.64]friendly /ˈfrendli/ adj. 友好的 
+[02:41.28]quite /kwaɪt/ adv. 相当；完全 
+[02:44.84]quite a 相当；非常 
+[02:48.72]not … at all 一点也不；完全不 
+[02:52.72]fur /fɜː(r)/ n.（动物浓厚的）软毛 
+[02:56.48]blind /blaɪnd/ adj. 瞎的；失明的 
+[03:00.28]hearing /ˈhɪərɪŋ/ n. 听力；听觉 
+[03:04.04]Antarctica /ænˈtɑːktɪkə/ 南极洲 
+[03:08.40]Africa /ˈæfrɪkə/ 非洲 
+[03:12.20]Malee /mɑːˈliː/ 马莉 
+[03:16.12]Thailand /ˈtaɪlænd/ 泰国`,
+    "7xUnit2": `[00:00.24]Unit 2
+[00:02.76]rule /ruːl/ n. 规则；规章 
+[00:06.28]order /ˈɔːdə(r)/ n. 秩序；命令 v. 点菜；命令 
+[00:09.84]follow /ˈfɒləʊ/v. 遵循；跟随 
+[00:13.60]late for 迟到 
+[00:17.52]arrive /əˈraɪv/v. 到达 
+[00:21.28]on time 准时 
+[00:25.44]hallway /ˈhɔːlweɪ/ n. 走廊 
+[00:29.00]uniform /ˈjuːnɪfɔːm/ n. 校服；制服 
+[00:32.96]litter /ˈlɪtə(r)/v. 乱扔 n. 垃圾 
+[00:36.56]polite /pəˈlaɪt/ adj. 有礼貌的 
+[00:40.36]treat /triːt/v. 对待；招待；治疗 n. 款待 
+[00:43.88]respect /rɪˈspekt/ n. & v. 尊敬 
+[00:47.88]if /ɪf/ conj. 如果 
+[00:51.40]jacket /ˈdʒækɪt/ n. 夹克衫；短上衣 
+[00:55.24]have to 不得不 
+[00:58.96]everything /ˈevriθɪŋ/ pron. 每件事；一切 
+[01:02.80]lend /lend/v. 借给；借出 
+[01:06.36]sweet /swiːt/ n. 糖果 adj. 甜的 
+[01:10.04]snack /snæk/ n. 点心；小吃 
+[01:13.68]of course /kɔːs/ 当然 
+[01:17.92]mobile /ˈməʊbaɪl/ adj. 可移动的 
+[01:21.80]mobile phone 手机 
+[01:26.08]turn off 关掉（水、电或煤气） 
+[01:30.00]queue /kjuː/ n. 队 
+[01:33.76]jump the queue 插队 
+[01:38.32]feed /fiːd/ v. 喂养；饲养 
+[01:42.04]leave /liːv/ v. 离开；留下 
+[01:45.76]absent /ˈæbsənt/ adj. 缺席的；不在的 
+[01:49.60]absent from 缺席；不在 
+[01:54.00]shh /ʃ/ (= sh) interj. 嘘（用以让别人安静下来） 
+[01:57.28]quietly /ˈkwaɪətli/ adv. 轻声地；安静地 
+[02:01.20]put on 戴上；穿上；增加 
+[02:05.44]belt /belt/ n. 安全带；腰带；皮带 
+[02:08.84]noise /nɔɪz/ n. 声音；噪声 
+[02:12.64]unhappy /ʌnˈhæpi/ adj. 不快乐的 
+[02:16.72]Dr (= doctor)博士；医生 
+[02:20.44]make sb’s/the bed 整理床铺；铺床  
+[02:29.20]either /ˈaɪðə(r)/; 
+[02:32.24]/ˈiːðə(r)/ adv. 也（用于否定词组后） 
+[02:35.92]practise /ˈpræktɪs/v. 训练；练习 
+[02:39.92]hang /hæŋ/v. 悬挂 
+[02:43.60]hang out 闲逛；常去某处 
+[02:47.52]weekday /ˈwiːkdeɪ/ n. 工作日（星期一至星期五的任何一天） 
+[02:51.24]awful /ˈɔːfl/ adj. 糟糕的；讨厌的 
+[02:54.88]become /bɪˈkʌm/v. 变成；成为 
+[02:58.64]better /ˈbetə(r)/ adj. 较好的 adv. 较好地 
+[03:02.16]person /ˈpɜːsn/ n. 人 
+[03:05.96]focus /ˈfəʊkəs/v. 集中（注意力、精力等）；聚焦 
+[03:10.04]focus on 集中（注意力、精力等）于 
+[03:14.04]build /bɪld/v. 创建；建造 
+[03:17.72]spirit /ˈspɪrɪt/ n. 精神；情绪 
+[03:21.72]think about 思考；考虑 
+[03:25.84]relax /rɪˈlæks/v. 放松；休息 
+[03:29.88]advice /ədˈvaɪs/ n. 建议；意见 
+[03:33.84]understand /ˌʌndəˈstænd/ v. 理解；领会 
+[03:38.08]untidy /ʌnˈtaɪdi/ adj. 不整洁的 
+[03:42.20]Mary /ˈmeəri/ 玛丽 
+[03:45.92]Tony /ˈtəʊni/ 托尼 
+[03:49.56]Anne /æn/ 安妮 
+[03:53.12]Eric /ˈerɪk/ 埃里克  `,
+    "7xUnit3": `[00:00.12]Unit 3
+[00:02.48]fit /fɪt/ adj. 健康的；健壮的 v. 适合 
+[00:05.88]baseball /ˈbeɪsbɔːl/ n. 棒球（运动） 
+[00:09.80]glove /ɡlʌv/ n.（手指分开的）手套 
+[00:13.32]mat /mæt/ n. 垫子 
+[00:16.80]rope /rəʊp/ n. 绳子；粗绳 
+[00:20.44]jump rope 跳绳用的绳子；跳绳（运动） 
+[00:24.16]racket /ˈrækɪt/ n.（网球、羽毛球等的）球拍 
+[00:28.04]hardly /ˈhɑːdli/ adv. 几乎不；几乎没有 
+[00:31.72]ever /ˈevə(r)/ adv. 在任何时候；从来；曾经 
+[00:35.20]hardly ever 几乎从不 
+[00:39.48]once /wʌns/ adv. 一次；曾经 conj. 一旦 
+[00:43.16]twice /twaɪs/ adv. 两次；两倍 
+[00:46.88]mine /maɪn/ pron. 我的（所有物） 
+[00:51.20]hers /hɜːz/; 
+[00:54.44]/ɜːz/ pron. 她的（所有物） 
+[00:58.08]maybe /ˈmeɪbi/ adv. 也许；大概 
+[01:01.76]well-used /ˌwelˈjuːzd/ adj. 使用得多的 
+[01:06.92]practice /ˈpræktɪs/ n. 练习；实践 
+[01:10.88]perfect /ˈpɜːfɪkt/ adj. 完美的；极好的 
+[01:14.68]seldom /ˈseldəm/ adv. 很少；不常 
+[01:18.48]badminton /ˈbædmɪntən/ n. 羽毛球运动 
+[01:22.64]double /ˈdʌbl/ n. 双打
+[01:26.12]doubles；两倍 adj. 成双的；两倍的 
+[01:29.96]sometime /ˈsʌmtaɪm/ adv. 在某个时候 
+[01:34.04]volleyball /ˈvɒlibɔːl/ n. 排球（运动） 
+[01:38.00]theirs /ðeəz/ pron. 他们的，她们的，它们的（所有物） 
+[01:42.08]ours /ˈaʊəz/; 
+[01:45.32]/ɑːz/ pron. 我们的（所有物）
+[01:48.96]jog /dʒɒɡ/v. 慢跑 
+[01:52.56]few /fjuː/ adj.（表示否定的）很少的；几乎没有的 
+[01:56.20]a few 少数；几个 
+[02:00.04]excuse /ɪkˈskjuːz/v. 原谅；宽恕 
+[02:04.28]excuse me 劳驾；请原谅 
+[02:08.52]over there 在那边 
+[02:12.36]just /dʒʌst/ adv. 只是；正好 
+[02:16.24]T-shirt /ˈtiː ʃɜːt/ n. T恤衫 
+[02:20.24]belong /bɪˈlɒŋ/v. 应在（某处） 
+[02:23.84]belong to 属于（某人） 
+[02:28.00]working /ˈwɜːkɪŋ/ adj. 工作的 
+[02:32.32]working day 工作日 
+[02:38.20]full of 有许多；充满 
+[02:42.24]energy /ˈenədʒi/ n. 精力；能量 
+[02:45.88]group /ɡruːp/ n. 组；群 
+[02:49.32]skateboard /ˈskeɪtbɔːd/ n. 滑板 
+[02:53.52]encourage /ɪnˈkʌrɪdʒ/v. 鼓励；激励 
+[02:57.72]trick /trɪk/ n. 技巧；戏法 
+[03:01.08]succeed /səkˈsiːd/v. 成功；达到目标 
+[03:05.20]skateboarding /ˈskeɪtbɔːdɪŋ/ n. 滑板运动 
+[03:09.68]goal /ɡəʊl/ n. 目标；目的 
+[03:13.16]sit-up /ˈsɪtʌp/ n. 仰卧起坐 
+[03:16.92]work out 锻炼 
+[03:21.04]app /æp/
+[03:23.80] (= application /ˌæplɪˈkeɪʃn/) n. 应用程序 
+[03:28.16]progress /ˈprəʊɡres/ n. 进步；进展 
+[03:32.12]match /mætʃ/ n. 比赛；竞赛 
+[03:35.80]team /tiːm/ n. 队；组 
+[03:39.48]lose /luːz/v. 输掉；丢失 
+[03:43.20]teenager /ˈtiːneɪdʒə(r)/ n. 青少年 
+[03:47.20]Steve /stiːv/ 史蒂夫 `,
+    "7xUnit4": `[00:00.04]Unit 4
+[00:02.64]watermelon /ˈwɔːtəˌmelən/ n. 西瓜 
+[00:06.56]cabbage /ˈkæbɪdʒ/ n. 卷心菜 
+[00:10.24]mutton /ˈmʌtn/ n. 羊肉 
+[00:13.84]cookie /ˈkʊki/ n. 曲奇饼 
+[00:17.32]onion /ˈʌnjən/ n. 洋葱；葱头 
+[00:20.76]dumpling /ˈdʌmplɪŋ/ n. 饺子 
+[00:24.32]coffee /ˈkɒfi/ n. 咖啡 
+[00:27.84]bean /biːn/ n. 豆 
+[00:31.32]chip /tʃɪp/ n. 炸薯条 
+[00:34.84]fish and chips 炸鱼薯条 
+[00:39.40]salad /ˈsæləd/ n. 沙拉；色拉 
+[00:43.12]porridge /ˈpɒrɪdʒ/ n. 粥；麦片粥 
+[00:46.84]waiter /ˈweɪtə(r)/ n.（男）服务员 
+[00:50.40]What about …? ……怎么样？ 
+[00:54.64]taste /teɪst/v. 有……味道；尝 n. 味道 
+[00:58.24]anything /ˈeniθɪŋ/ pron. 某事物；任何事物 
+[01:01.92]dish /dɪʃ/ n. 一道菜；盘子 
+[01:05.44]choice /tʃɔɪs/ n. 选择 
+[01:09.12]meal /miːl/ n. 一餐所吃的食物；一餐 
+[01:12.64]pork /pɔːk/ n. 猪肉 
+[01:16.08]strawberry /ˈstrɔːbəri/ n. 草莓 
+[01:20.00]menu /ˈmenjuː/ n. 菜单 
+[01:23.60]customer /ˈkʌstəmə(r)/ n. 顾客 
+[01:27.44]serve /sɜːv/v. 提供；服务 
+[01:31.08]waitress /ˈweɪtrəs/ n. 女服务员 
+[01:34.96]sir /sɜː(r)/ n. 先生 
+[01:38.92]bill /bɪl/ n. 账单；钞票 
+[01:42.88]go with 搭配；相配 
+[01:46.64]instead /ɪnˈsted/ adv. 反而；代替 
+[01:50.56]pear /peə(r)/ n. 梨 
+[01:54.08]too much 太多 
+[01:58.08]sugar /ˈʃʊɡə(r)/ n. 糖 
+[02:01.88]newsletter/ˈnjuːzletə(r)/ n. 内部通讯；简讯 
+[02:05.92]improve /ɪmˈpruːv/v. 改进；改善 
+[02:09.96]habit /ˈhæbɪt/ n. 习惯 
+[02:13.56]fast food 快餐 
+[02:18.00]salt /sɔːlt/; 
+[02:21.56]/sɒlt/ n. 盐 
+[02:25.60]fat /fæt/ n. 脂肪 adj. 肥胖的 
+[02:29.28]weight /weɪt/ n. 体重；重量 
+[02:32.80]hamburger /ˈhæmbɜːɡə(r)/ n. 汉堡包 
+[02:36.68]cause /kɔːz/v. 造成；导致 
+[02:40.40]heart /hɑːt/ n. 心脏；中心 
+[02:43.96]balanced /ˈbælənst/ adj. 均衡的；平衡的 
+[02:47.72]too … to 太……以至于不能 
+[02:52.28]sleepy /ˈsliːpi/ adj. 困倦的；想睡的 
+[02:56.16]after all 毕竟；终归 
+[03:00.24]away /əˈweɪ/ adv. 离开；在别处 
+[03:04.00]poor /pɔː(r)/; 
+[03:06.92]/pʊə(r)/ adj. 不好的；贫穷的；可怜的 
+[03:10.40]result /rɪˈzʌlt/ n. 后果；结果 
+[03:14.16]article /ˈɑːtɪkl/ n. 文章；冠词 
+[03:17.96]common /ˈkɒmən/ adj. 共同的；普遍的 
+[03:21.52]among /əˈmʌŋ/ prep. 在……中；……之一 
+[03:25.12]soft /sɒft/ adj. 柔和的；柔软的 
+[03:28.76]soft drink 软饮料（不含酒精） 
+[03:32.96]enough /ɪˈnʌf/ adj. 足够的；充足的 adv. 足够地；充分地 pron. 足够；充分 
+[03:36.84]thirsty /ˈθɜːsti/ adj. 渴的 
+[03:40.60]Gongbao chicken 宫保鸡丁 
+[03:45.36]America /əˈmerɪkə/ 美国；美洲 
+[03:49.32]Dongpo pork 东坡肉 
+[03:53.88]Joy /dʒɔɪ/ Clinic /ˈklɪnɪk/ 快乐诊所  `,
+    "7xUnit5": `[00:00.04]Unit 5
+[00:02.60]right now 现在；立刻 
+[00:06.48]ride /raɪd/v. 骑 n. 旅程 
+[00:10.04]moment /ˈməʊmənt/ n. 某个时刻；片刻；瞬间 
+[00:13.92]at the moment 现在；此刻 
+[00:18.24]work on 做；从事 
+[00:21.48]dragon /ˈdræɡən/ n. 龙 
+[00:25.08]festival /ˈfestɪvl/ n. 节日 
+[00:28.88]hold /həʊld/v. 拿着；抓住 
+[00:32.40]hold on 别挂断电话；等一等 
+[00:36.20]voice /vɔɪs/ n. 嗓音；声音 
+[00:39.96]race /reɪs/ n. 比赛；竞赛 
+[00:43.56]darling /ˈdɑːlɪŋ/ n. 亲爱的；宝贝 
+[00:47.28]somebody /ˈsʌmbədi/ pron. 某人；有人 
+[00:51.16]could /kʊd/; 
+[00:54.28]/kəd/ modal v. 能；可以 
+[00:57.92]message /ˈmesɪdʒ/ n. 消息；信息 
+[01:01.80]take a message 捎个口信 
+[01:06.16]leave a message 留个口信 
+[01:10.60]call back 回电话 
+[01:14.64]kick /kɪk/v. 踢；踹 
+[01:18.04]wow /waʊ/ interj. 哇；呀 
+[01:21.56]online /ˌɒnˈlaɪn/ adj. 在线的 
+[01:25.72]shuttlecock /ˈʃʌtlkɒk/ n. 羽毛球 
+[01:29.84]sight /saɪt/ n. 名胜；风景；视力 
+[01:33.40]exam /ɪɡˈzæm/
+[01:36.84] (= examination /ɪɡˌzæmɪˈneɪʃən/) n. 考试 
+[01:41.48]hope /həʊp/v. & n. 希望 
+[01:44.88]forward /ˈfɔːwəd/ adv. 向前 
+[01:48.56]look forward to 盼望 
+[01:53.16]skate /skeɪt/v. 滑冰 
+[01:57.00]happen /ˈhæpən/v. 发生 
+[02:00.60]zone /zəʊn/ n. 地区；地带；区域 
+[02:04.08]time zone 时区 
+[02:07.96]around the world 世界各地 
+[02:13.44]rush /rʌʃ/v. & n. 冲；奔 
+[02:17.16]in a hurry 匆忙 
+[02:21.24]shine /ʃaɪn/v. 发光；照耀 n. 光亮 
+[02:25.20]brightly /ˈbraɪtli/ adv. 明亮地 
+[02:29.00]colourful /ˈkʌləfl/ adj. 色彩鲜艳的 
+[02:32.84]slowly /ˈsləʊli/ adv. 缓慢地 
+[02:36.60]such /sʌtʃ/ adj. 这样的；那样的 pron. 这样（那样）的人或事物 
+[02:40.44]such as 例如 
+[02:44.76]painting /ˈpeɪntɪŋ/ n. 绘画作品；绘画；油画 
+[02:48.56]market /ˈmɑːkɪt/ n. 市场 
+[02:52.36]side /saɪd/ n. 边；侧 
+[02:56.12]side by side 并排；并肩地 
+[03:01.24]rush hour （上下班时的）交通高峰期 
+[03:05.36]subway /ˈsʌbweɪ/ n. 地铁 
+[03:09.12]bright /braɪt/ adj. 鲜艳的；明亮的；聪明的 
+[03:12.72]drop /drɒp/v. 运送；落下 n. 滴；下降 
+[03:16.20]drop off（开车）把某人送到某处 
+[03:20.20]passenger /ˈpæsɪndʒə(r)/ n. 乘客 
+[03:24.24]central /ˈsentrəl/ adj. 中心的；中央的 
+[03:28.12]explain /ɪkˈspleɪn/v. 解释；说明 
+[03:32.92]take part in 参加 
+[03:37.28]tour /tʊə(r)/ n. & v. 旅行；旅游 
+[03:40.72]sunshine /ˈsʌnʃaɪn/ n. 阳光 
+[03:44.68]drive /draɪv/v. 开车；驾驶 
+[03:48.80]Adam /ˈædəm/ 亚当 
+[03:52.28]Dragon Boat Festival 端午节 
+[03:57.52]Beth /beθ/ 贝丝 
+[04:01.08]Nairobi /naɪˈrəʊbi/ 内罗毕（肯尼亚首都）
+[04:05.04]New York /ˌnjuːˈjɔːk/ 纽约 
+[04:09.12]Kenya /ˈkenjə/ 肯尼亚 
+[04:12.88]USA /ˌjuːesˈeɪ/ 美国 
+[04:17.12]Central Park 中央公园  `,
+    "7xUnit6": ` [00:00.04]Unit 6
+[00:02.64]rain or shine 不论是雨或是晴；不管发生什么事 
+[00:07.28]affect /əˈfekt/v. 影响 
+[00:11.24]dry /draɪ/ adj. 干的；干旱的 
+[00:14.84]lightning /ˈlaɪtnɪŋ/ n. 闪电 
+[00:18.72]stormy /ˈstɔːmi/ adj. 有暴风雨（或暴风雪）的 
+[00:22.56]north /nɔːθ/ n. 北部；北；北方 
+[00:26.12]west /west/ n. 西部；西；西方 
+[00:29.68]south /saʊθ/ n. 南部；南；南方 
+[00:33.44]east /iːst/ n. 东部；东；东方 
+[00:37.08]stay in 待在家里；没有外出 
+[00:41.72]lucky /ˈlʌki/ adj. 运气好的；带来好运的 
+[00:45.28]lucky you 你真幸运 
+[00:49.64]sunbathe /ˈsʌnbeɪð/v. 沐日光浴；晒太阳 
+[00:53.68]some day 将来；有朝一日 
+[00:57.16]temperature /ˈtemprətʃə(r)/ n. 温度 
+[01:01.16]snowman /ˈsnəʊmæn/ n. 
+[01:05.16](pl. snowmen /ˈsnəʊmen/) 雪人 
+[01:09.40]heavily /ˈhevɪli/ adv. 大量地；沉重地 
+[01:12.92]snowy /ˈsnəʊi/ adj. 下雪的；雪白的 
+[01:16.64]beach volleyball 沙滩排球 
+[01:20.52]high /haɪ/ adv. & adj. 高 
+[01:24.32]freezing /ˈfriːzɪŋ/ adj. 极冷的；冰冻的 
+[01:28.08]tourist /ˈtʊərɪst/ n. 旅行者；观光客 
+[01:31.68]mount /maʊnt/ n. （在现代英语里仅用于地名）山；山峰 
+[01:35.52]cloud /klaʊd/ n. 云；云彩 
+[01:39.08]feel like 感觉像 
+[01:43.00]magical /ˈmædʒɪkl/ adj. 魔法的；神奇的 
+[01:46.96]rock /rɒk/ n. 岩石 
+[01:50.68]rest /rest/ n. 休息；剩余部分 
+[01:54.04]area /ˈeəriə/ n. 场地；地区 
+[01:57.76]rest area 休息区 
+[02:02.04]make progress 取得进展 
+[02:06.88]although /ɔːlˈðəʊ/ conj. 虽然；尽管 
+[02:10.76]still /stɪl/ adv. 还；仍然 
+[02:14.48]in high spirits 情绪高涨；兴高采烈 
+[02:19.32]experience /ɪkˈspɪəriəns/ n. 经历；经验 v. 经历 
+[02:23.84]through /θruː/ prep. 穿过；凭借 
+[02:27.28]glad /ɡlæd/ adj. 高兴的 
+[02:30.88]peak /piːk/ n. 山顶；顶点 
+[02:34.20]grey /ɡreɪ/ 
+[02:37.40](AmE gray /ɡreɪ/) adj. 灰色的 
+[02:40.56]because of 因为 
+[02:44.56]fog /fɒɡ/ n. 雾 
+[02:48.12]ground /ɡraʊnd/ n.地面 
+[02:51.80]wet /wet/ adj. 湿的 
+[02:55.44]tiring /ˈtaɪərɪŋ/ adj. 令人疲倦的；累人的 
+[02:59.20]seem /siːm/v. 似乎；好像 
+[03:03.04]sunlight /ˈsʌnlaɪt/ n. 阳光；日光 
+[03:07.24]at the top 在顶部；在顶端 
+[03:11.48]description /dɪˈskrɪpʃn/ n. 描述；说明 
+[03:15.64]mountain /ˈmaʊntən/ n. 山；高山 
+[03:19.52]at the start 开始；起初 
+[03:23.80]end /end/ n. 末尾；结束 
+[03:27.32]at the end 最后；在末尾 
+[03:31.60]storm /stɔːm/ n. 暴风雨；暴风雪 
+[03:35.48]pour /pɔː(r)/v. 倾倒；倒出 
+[03:38.96]wind /wɪnd/ n. 风 
+[03:42.44]shout /ʃaʊt/v. & n. 喊叫；呼唤 
+[03:46.36]run after 追逐 
+[03:50.60]Anna /ˈænə/ 安娜 
+[03:54.04]John /dʒɒn/ 约翰 
+[03:57.88]Stockholm /ˈstɒkhəʊm/ 斯德哥尔摩（瑞典首都） 
+[04:01.56]Mount Huangshan 黄山 
+[04:06.80]Bright Peak 光明顶 `,
+    "7xUnit7": `[00:00.12]Unit 7
+[00:02.60]meet up 碰头；相聚 
+[00:06.84]museum /mjuˈziːəm/ n. 博物馆 
+[00:10.84]exhibition /ˌeksɪˈbɪʃn/ n. 展览 
+[00:15.12]direction /dɪˈrekʃn/; 
+[00:18.56]/daɪˈrekʃn/ n. 方向 
+[00:22.68]trip /trɪp/ n. 旅行 
+[00:26.08]wastewater /ˈweɪstwɔːtə(r)/ n. 废水 
+[00:30.36]plant /plɑːnt/ n. 工厂 
+[00:33.92]into /ˈɪntu/ː; 
+[00:37.16]/ˈɪntə/ prep. 到……里面；进入 
+[00:40.96]screen /skriːn/ n. 滤网；隔板；屏障 
+[00:45.20]remove /rɪˈmuːv/v. 移开；拿走 
+[00:49.00]piece /piːs/ n. 片；块 
+[00:52.52]waste /weɪst/ n. 废弃物 v. 浪费 
+[00:56.12]machine /məˈʃiːn/ n. 机器 
+[01:00.08]germ /dʒɜːm/ n. 微生物；细菌 
+[01:03.88]step /step/ n. 步骤；脚步 
+[01:07.48]used to 过去常常（做） 
+[01:11.24]realize /ˈrɪəlaɪz/ (= realise) v. 认识到；实现 
+[01:15.20]inside /ˌɪnˈsaɪd/ prep. 在……里面 adv. 在里面 
+[01:19.00]go on a trip去旅行 
+[01:23.44]process /ˈprəʊses/ n. 过程 
+[01:27.72]theatre /ˈθɪətə(r)/ n. 戏院；剧场；电影院 
+[01:31.56]factory /ˈfæktri/; 
+[01:35.12]/ˈfæktəri/ n. 工厂 
+[01:39.20]terrible /ˈterəbl/ adj. 糟糕的 
+[01:42.84]actor /ˈæktə(r)/ n. 演员 
+[01:46.52]gun /ɡʌn/ n. 枪 
+[01:50.08]try on 试穿 
+[01:54.08]along /əˈlɒŋ/ prep. 沿着；顺着 
+[01:57.88]road /rəʊd/ n. 道路 
+[02:01.56]create /kriˈeɪt/v. 创造 
+[02:05.44]record /rɪˈkɔːd/v. 记录
+[02:08.68]/ˈrekɔːd/ n. 记录 
+[02:12.72]thought /θɔːt/ n. 想法 
+[02:16.40]skill /skɪl/ n. 技能 
+[02:20.20]write down 写下；记下 
+[02:24.12]explore /ɪkˈsplɔː(r)/v. 探索 
+[02:28.20]tent /tent/ n. 帐篷 
+[02:31.80]cucumber /ˈkjuːkʌmbə(r)/ n. 黄瓜 
+[02:35.80]from … to … 从……到……  
+[02:40.84]straight /streɪt/ adv. 直接；立即；笔直地 adj. 直的 
+[02:44.48]fill /fɪl/v. 装满；盛满 
+[02:48.08]basket /ˈbɑːskɪt/ n. 篮子；筐 
+[02:51.96]teach /tiːtʃ/v. 
+[02:55.56](taught /tɔːt/) 教 
+[02:59.04]branch /brɑːntʃ/ n. 分支；树枝 
+[03:02.64]leaf /liːf/ n. 
+[03:06.24](pl. leaves /liːvz/) 叶；叶子 
+[03:10.24]finally /ˈfaɪnəli/ adv. 终于 
+[03:14.08]think of 考虑；想起 
+[03:18.12]grain /ɡreɪn/ n. 谷物；谷粒 
+[03:21.68]fresh /freʃ/ adj. 新鲜的 
+[03:25.52]certainly /ˈsɜːtnli/ adv. 肯定；当然 
+[03:29.40]diary /ˈdaɪəri/ n. 日记；日记本 
+[03:33.28]entry /ˈentri/ n.（日记的）一则；入口 
+[03:37.64]agree /əˈɡriː/v. 赞成；同意 
+[03:41.40]agree with 赞成；同意 `,
+    "7xUnit8": `[00:00.12]Unit 8
+[00:02.60]upon /əˈpɒn/ prep. 在……上 
+[00:06.32]once upon a time 从前；很久以前 
+[00:11.52]bite /baɪt/v. 
+[00:14.40](bit /bɪt/) 咬；咬伤 
+[00:17.84]bite through 咬穿 
+[00:21.76]net /net/ n. 网；网状物 
+[00:25.28]hunter /ˈhʌntə(r)/ n. 猎人；搜寻者 
+[00:28.88]promise /ˈprɒmɪs/v. 承诺；保证 n. 承诺；诺言 
+[00:32.52]long ago 很久以前 
+[00:36.72]war /wɔː(r)/ n. 战争 
+[00:40.16]neighbour /ˈneɪbə(r)/ n. 邻居 
+[00:43.76]wise /waɪz/ adj. 明智的；高明的 
+[00:47.64]emperor /ˈempərə(r)/ n. 皇帝 
+[00:51.36]lie /laɪ/v. 撒谎 n. 谎言 
+[00:54.96]pretend /prɪˈtend/v. 假装；伪装 
+[00:58.84]official /əˈfɪʃl/ n. 官员；高级职员 
+[01:02.72]silly /ˈsɪli/ adj. 愚蠢的；傻的 
+[01:06.36]decide /dɪˈsaɪd/v. 决定 
+[01:10.32]praise /preɪz/v. & n.赞美；表扬 
+[01:14.08]afraid /əˈfreɪd/ adj. 害怕的；担心的 
+[01:17.68]suddenly /ˈsʌdənli/ adv. 突然地；出乎意料地 
+[01:21.76]at first 起初；最初 
+[01:26.04]truth /truːθ/ n. 真相；事实 
+[01:29.60]tell the truth 说实话 
+[01:33.88]make money 赚钱 
+[01:38.08]true /truː/ adj. 符合事实的；真正的 
+[01:41.52]hate /heɪt/v. 不喜欢；厌恶；讨厌 
+[01:44.96]get out 逃脱；离开 
+[01:48.88]king /kɪŋ/ n. 君主；国王 
+[01:52.44]artist /ˈɑːtɪst/ n. 美术家；艺术家 
+[01:56.32]quickly /ˈkwɪkli/ adv. 快速地；很快 
+[01:59.92]smile /smaɪl/v. 微笑 n. 微笑；笑容 
+[02:03.76]all over 到处；遍及 
+[02:07.24]ugly /ˈʌɡli/ adj. 丑陋的；难看的 
+[02:10.72]duckling /ˈdʌklɪŋ/ n. 小鸭子 
+[02:14.44]real /rɪəl/ adj. 真的；真正的 
+[02:17.88]laugh at 嘲笑 
+[02:21.76]go away 走开 
+[02:25.80]search /sɜːtʃ/v. 寻找；搜寻 
+[02:29.80]search for 寻找 
+[02:34.00]hen /hen/ n. 母鸡 
+[02:37.52]hopefully /ˈhəʊpfəli/ adv. 有希望地 
+[02:41.28]purr /pɜː(r)/v. （猫）发出呼噜声 
+[02:44.84]lay /leɪ/v. 
+[02:47.80](laid /leɪd/) 下（蛋）；放置；搁 
+[02:51.52]swan /swɒn/ n. 天鹅 
+[02:55.32]feather /ˈfeðə/ n. 羽毛 
+[02:59.04]to sb’s surprise 出乎某人的意料 
+[03:04.52]size /saɪz/ n. 大小；尺寸 
+[03:08.56]only if 只有 
+[03:12.80]fisherman /ˈfɪʃəmən/ n.
+[03:16.72] (pl. fishermen /ˈfɪʃəmən/) 渔夫 
+[03:20.56]fishing /ˈfɪʃɪŋ/ n. 钓鱼；捕鱼 
+[03:24.16]come out 出现；盛开 
+[03:28.12]genie /ˈdʒiːni/ n. 妖怪；鬼 
+[03:31.88]die /daɪ/v. 死亡；消失 
+[03:35.48]make a promise 许下诺言 
+[03:40.04]someone /ˈsʌmwʌn/ pron. 某人；有人 
+[03:43.88]set /set/v. 使处于某种状况；使开始 
+[03:47.56]set … free 释放 
+[03:51.84]rich /rɪtʃ/ adj. 富有的；富含……的 
+[03:55.48]powerful /ˈpaʊəfl/ adj. 强大的；有影响力的 
+[03:59.28]anyone /ˈeniwʌn/ pron. 任何人；某个人 
+[04:03.08]instead of 而不是；代替 
+[04:07.36]succeed in doing sth 成功做成某事 
+[04:13.52]himself /hɪmˈself/ pron. 他自己；他本人 
+[04:17.68]in the end 最后；终究 
+[04:21.80]Hans /hænz/ Christian /ˈkrɪstʃən/ Andersen /ˈændəsən/ 汉斯 · 克里斯蒂安 · 安徒生 `,
     "8sUnit1": `[00:01.60]Vocabulary in Each Unit
 [00:07.84]Unit 1
 [00:11.76]ancient /ˈeɪnʃənt/ adj. 古代的；古老的
@@ -540,6 +1386,7 @@ const data = {
 [02:40.32]mm (= millimetre /ˈmɪlimiːtə(r)/;
 [02:44.72]millimeter) 毫米
 [02:49.24]pleasant /ˈpleznt/ adj. 宜人的；友好的 
+[02:52.64]forum /ˈfɔːrəm/ n. 论坛；讨论会
 [02:57.44]difference /ˈdɪfrəns/ n. 差异
 [03:01.88]alike /əˈlaɪk/ adj. 相像的 adv. 相似地
 [03:06.04]mirror /ˈmɪrə(r)/ n. 镜子
@@ -950,6 +1797,30 @@ const data = {
 [05:32.28]clause /klɔːz/ n. 从句；分句 
 [05:36.64]Susan /ˈsu:zən/ 苏珊 
 [05:40.80]Jones /dʒəunz/ 琼斯 `,
+    "8xUnit1": ` `,
+    "8xUnit2": ` `,
+    "8xUnit3": ` `,
+    "8xUnit4": ` `,
+    "8xUnit5": ` `,
+    "8xUnit6": ` `,
+    "8xUnit7": ` `,
+    "8xUnit8": ` `,
+    "9sUnit1": ` `,
+    "9sUnit2": ` `,
+    "9sUnit3": ` `,
+    "9sUnit4": ` `,
+    "9sUnit5": ` `,
+    "9sUnit6": ` `,
+    "9sUnit7": ` `,
+    "9sUnit8": ` `,
+    "9xUnit1": ` `,
+    "9xUnit2": ` `,
+    "9xUnit3": ` `,
+    "9xUnit4": ` `,
+    "9xUnit5": ` `,
+    "9xUnit6": ` `,
+    "9xUnit7": ` `,
+    "9xUnit8": ` `,
 },
   audio: null,
   currentPlayIndex: -1,
